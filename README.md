@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![](https://circleci.com/gh/zenbread/ml-microservice.svg?style=svg)](<LINK>)
 
 ## Project Overview
 
