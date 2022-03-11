@@ -5,11 +5,14 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath=zenbread/house-prices
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login --username zenbread
+docker tag house-prices:latest zenbread/house-prices
 
 # Step 3:
 # Push image to a docker repository
+docker push zenbread/house-prices
